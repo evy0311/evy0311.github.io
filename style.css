@@ -41,20 +41,23 @@ div.content {
 div.introduction {
   max-width: 475px;
   margin: 0px auto;
-  font-size: 60px;
+  font-size: calc(32px + (60 - 32) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 div.name {
   font-family: 'raleway', sans-serif;
   font-weight: 400;
-  font-size: 167px;
+  font-size: calc(80px + (167 - 80) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
   color: #aaa;
 }
 
 div.details {
   text-align: center;
   margin: 0px auto;
-  font-size: 48px;
+  font-size: calc(32px + (48 - 32) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 div.talent {
@@ -68,7 +71,8 @@ div#flyup {
 
 div.link-header {
   margin-top: 15px;
-  font-size: 26px;
+  font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
   text-align: center;
 }
 
@@ -95,16 +99,6 @@ div.linkout div {
   max-height: 58px;
 }
 
-div.book-header {
-  margin-top: 15px;
-  font-size: 26px;
-  text-align: center;
-}
-
-div.book {
-  margin-top: 15px;
-}
-
 div.tech {
   text-align: center;
   clear: both;
@@ -113,7 +107,8 @@ div.tech {
 div.tech-header {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 26px;
+  font-size: calc(20px + (26 - 20) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
 }
 
 div.tech div {
