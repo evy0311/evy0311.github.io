@@ -208,8 +208,8 @@ img.portfolio:hover {
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   justify-content: space-evenly;
-  grid-auto-rows: minmax(100px, auto);
 
 }
 
@@ -241,4 +241,35 @@ img.portfolio:hover {
   grid-area: 3 / 2 / 4 / 4;
 }
 
+/* footer */
+span.heart {
+  color: #666;
+  font-size: 12px;
+  position: absolute;
+  margin-top: 50px;
+  width: 90%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+span a {
+  color: #000000;
+  text-decoration: none;
+}
+span .fa {
+  color: #E90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}
 
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.1);
+  }
+}
