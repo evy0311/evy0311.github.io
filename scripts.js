@@ -1,14 +1,14 @@
 // ONLOAD
 
 window.onload = function () {
-	var il = new Il();
+	var il = new activitiesElement();
 	il.beginFlying();
 };
 
 
 // CLASSES
 
-function Il() {
+function activitiesElement() {
 	var activities = ['code', 'think', 'learn', 'study', 'laugh', 'work', 'play', 'bike'];
 	var currentIndex = 0;
 	var nextActivity = function() {
