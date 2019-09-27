@@ -1,0 +1,118 @@
+html, body{
+    margin: 0 auto;
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100;
+  }
+  
+  #header {
+      background: linear-gradient(rgba(0, 0, 75, 0.5), rgba(30, 0, 0, 0.5)), url("./images/background.jpg");
+      height: 100vh;
+      width: 100vw;
+      background-size: cover;
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      margin: 0 auto;
+  }
+  
+  h1, h2, p {
+      color: #fff;
+      font-family: 'Roboto', sans-serif;
+      line-height: 0.8;
+  
+  }
+  
+  h1 {
+      font-size: 45pt;
+      text-align: center;
+      font-weight: 150;
+      line-height: .2em;
+  }
+
+  h2 {
+    font-size: 45pt;
+    text-align: center;
+    font-weight: 550;
+    line-height: .2em;
+    text-transform: uppercase;
+}
+  
+  p {
+      font-size: 30pt;
+      text-align: center;
+      font-weight: 600;
+      line-height: 1em;
+  }
+
+  #heart {
+    text-align: center;
+  }
+  
+  button {
+    padding: 12px 19px;
+    background:transparent;
+    color:#fff;
+    border: 2px solid white;
+    font-size: 15px;
+    border-radius: 0px;
+    transition: all .3s ease;
+  }
+  
+  button:hover {
+    background: white;
+    color: black;  
+  }
+  @media (max-width: 600px) {
+    h1 {
+        font-size: 40pt;
+      }
+    p {
+      font-size: 20pt;
+      font-weight: 300;
+    }
+  }
+  
+  @media (max-width: 364px) {
+    h1 {
+        font-size: 30pt;
+      }
+    p {
+      font-size: 15pt;
+      font-weight: 300;
+    }
+  }
+
+/* footer */
+span.heart {
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 50px;
+    width: 90%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+  }
+  span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  span .fa {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  
+  @-webkit-keyframes pound {
+    to {
+      transform: scale(1.1);
+    }
+  }
+  @keyframes pound {
+    to {
+      transform: scale(1.1);
+    }
+  }
