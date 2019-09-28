@@ -3,48 +3,55 @@ html, body{
       height: 100%;
       font-family: 'Roboto', sans-serif;
       font-weight: 100;
-  }
-  
+    }
+
   #header {
       background: linear-gradient(rgba(0, 0, 75, 0.5), rgba(30, 0, 0, 0.5)), url("./images/background.jpg");
-      height: 100vh;
-      width: 100vw;
       background-size: cover;
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      height: 100%;
       display: flex;
       flex-direction:column;
       justify-content:center;
       align-items:center;
       margin: 0 auto;
-  }
+    }
   
-  h1, h2, p {
+  h1, h2 {
       color: #fff;
       font-family: 'Roboto', sans-serif;
       line-height: 0.8;
-  
-  }
+    }
   
   h1 {
       font-size: 45pt;
       text-align: center;
       font-weight: 150;
       line-height: .2em;
-  }
+    }
 
   h2 {
-    font-size: 45pt;
+    font-size: 15pt;
     text-align: center;
-    font-weight: 550;
+    font-weight: 150;
     line-height: .2em;
-    text-transform: uppercase;
-}
+    }
   
+  #about {
+    display: block;
+    width: 100%;
+    background: rgb(6,0,110);
+    }
+    
   p {
-      font-size: 30pt;
+      font-size: 10pt;
+      color: #fff;
       text-align: center;
       font-weight: 600;
       line-height: 1em;
-  }
+    }
 
   .profile-image {
     width: 150px;
@@ -54,7 +61,7 @@ html, body{
   
     object-fit: cover;
     object-position: center right;
-  }
+    }
   
   button {
     padding: 12px 19px;
@@ -64,12 +71,12 @@ html, body{
     font-size: 15px;
     border-radius: 0px;
     transition: all .3s ease;
-  }
+    }
   
   button:hover {
     background: white;
     color: black;  
-  }
+    }
   @media (max-width: 600px) {
     h1 {
         font-size: 40pt;
