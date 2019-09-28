@@ -46,8 +46,14 @@ html, body{
       line-height: 1em;
   }
 
-  #heart {
-    text-align: center;
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+  
+    object-fit: cover;
+    object-position: center right;
   }
   
   button {
@@ -88,9 +94,13 @@ html, body{
 span.heart {
     color: #666;
     font-size: 12px;
+    display: block;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 30px;
+    padding-bottom:20px;
     width: 90%;
+    left: 50%;
+    right: auto;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
   }
