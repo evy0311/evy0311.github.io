@@ -16,11 +16,14 @@ body {
 	box-sizing: border-box;
 }
 
-#head {
+h1 {
 	color: #fff;
 	font-size: 2.5em;
     text-align: center;
-    padding-top: 10px;
+	padding-top: 10px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .cursor {
@@ -108,6 +111,13 @@ body {
 .topic_header {
 	color: rgb(17, 166, 252);
 	margin-top: 1.5em;
+}
+
+h2 {
+	font: 1em Consolas, monaco, monospace;
+	color: rgb(17, 166, 252);
+	margin-top: 1.5em;
+	margin-bottom: 0px;
 }
 
 .topic_text {
