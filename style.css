@@ -47,11 +47,14 @@ h1 {
 	max-width: 1040px;
 	height: 100%;
 	margin: 0 auto;
+	-webkit-box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
+	box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
+	border-radius: 5px 5px 0 0;
 }
 
 #bar {
 	height: 1.75em;
-	background-color: #DAD9D9;
+	background-color: #DAD9D6;
 	border-radius: 5px 5px 0 0;
 }
 
@@ -90,7 +93,7 @@ h1 {
 }
 
 #screen {
-	background-color: #b9b9b9;
+	background-color: #ECECEC;
 	height: 100%;
 	border-radius: 0 0 5px 5px;
 	overflow-y: auto;
@@ -235,10 +238,10 @@ a:link, a:visited {
 		color: rgb(17, 166, 252);
 	}
 	#bar {
-		background-color: rgb(48, 48, 48);
+		background-color: #393B3D;
 	}
 	#screen {
-		background-color: #383b3d;
+		background-color: #303234;
 	}
 	.topic_text {
 		color: white;
