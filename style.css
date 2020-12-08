@@ -217,11 +217,18 @@ a:link, a:visited {
 	.topic_text {
 		margin-left: 1.25em;
 	}
+
+	.fa-lg {
+		font-size: 1.1rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
 	body {
 		font-size: 12px;
+	}
+	.fa-lg {
+		font-size: 1.2rem;
 	}
 }
 
