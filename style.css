@@ -19,7 +19,7 @@ body {
 h1 {
 	color: black;
 	font-size: 2.5em;
-    text-align: center;
+	text-align: center;
 	padding-top: 10px;
 	font-weight: normal;
 	margin-top: 0px;
@@ -47,8 +47,8 @@ h1 {
 	max-width: 1040px;
 	height: 100%;
 	margin: 0 auto;
-	-webkit-box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
-	box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);  
+	-webkit-box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
+	box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56);
 	border-radius: 5px 5px 0 0;
 }
 
@@ -213,11 +213,9 @@ a:link, a:visited {
 	body {
 		font-size: 14px;
 	}
-
 	.topic_text {
 		margin-left: 1.25em;
 	}
-
 	.fa-lg {
 		font-size: 1.1rem;
 	}
@@ -233,9 +231,9 @@ a:link, a:visited {
 }
 
 @media (prefers-color-scheme: dark) {
-    /* Overrides for Dark Mode. */
-    body {
-        color: white;
+	/* Overrides for Dark Mode. */
+	body {
+		color: white;
 		background-color: black;
 	}
 	h1 {
@@ -267,4 +265,4 @@ a:link, a:visited {
 	}
 }
 
-/* Copyright 2020 Evan Horsley - All Rights Reserved. */
+/* Copyright 2021 Evan Horsley - All Rights Reserved. */
