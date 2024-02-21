@@ -37,6 +37,7 @@ h1 {
 	0%, 40%, 100% {
 		opacity: 0;
 	}
+
 	50%, 90% {
 		opacity: 1;
 	}
@@ -203,6 +204,27 @@ a:link, a:visited {
 	bottom: 6em;
 }
 
+.bmac {
+	width: 100%;
+	text-align: center;
+	color: rgb(53, 53, 53);
+	padding: 20px;
+}
+
+#bmac-btn {
+	display: block;
+	background-image: url('./images/bmac/white-button.png');
+	background-size: cover;
+	background-position: center;
+	width: 40%;
+	min-width: 200px;
+	max-width: 400px;
+	aspect-ratio: 1090 / 306;
+	margin: auto;
+	margin-top: 20px !important;
+	border-radius: 20px;
+}
+
 @media (min-width: 1600px) {
 	body {
 		font-size: 18px;
@@ -213,9 +235,11 @@ a:link, a:visited {
 	body {
 		font-size: 14px;
 	}
+
 	.topic_text {
 		margin-left: 1.25em;
 	}
+
 	.fa-lg {
 		font-size: 1.1rem;
 	}
@@ -225,43 +249,62 @@ a:link, a:visited {
 	body {
 		font-size: 12px;
 	}
+
 	.fa-lg {
 		font-size: 1.2rem;
 	}
 }
 
 @media (prefers-color-scheme: dark) {
+
 	/* Overrides for Dark Mode. */
 	body {
 		color: white;
 		background-color: black;
 	}
+
 	h1 {
 		color: white;
 	}
+
 	h2 {
 		color: rgb(17, 166, 252);
 	}
+
 	#bar {
 		background-color: #393B3D;
 	}
+
 	#screen {
 		background-color: #303234;
 	}
+
 	.topic_text {
 		color: white;
 	}
+
 	a:link, a:visited {
 		color: white;
 	}
+
 	#innerfooter {
 		color: white;
 	}
+
 	.topic_header {
 		color: rgb(17, 166, 252);
 	}
+
 	.cursor {
 		color: rgb(17, 166, 252);
+	}
+
+	.bmac {
+		color: white;
+	}
+
+	#bmac-btn {
+		background-image: url('./images/bmac/black-button.png');
 	}
 }
 
