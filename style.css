@@ -218,7 +218,7 @@ a:link, a:visited {
 	background-position: center;
 	width: 40%;
 	min-width: 200px;
-	max-width: 400px;
+	max-width: 300px;
 	aspect-ratio: 1090 / 306;
 	margin: auto;
 	margin-top: 20px !important;
@@ -308,4 +308,13 @@ a:link, a:visited {
 	}
 }
 
-/* Copyright 2021 Evan Horsley - All Rights Reserved. */
+li {
+	margin-bottom: 8px;
+}
+
+div, span, h1, h2, h3, h4, h5, h6, p {
+	line-height: 1.4;
+}
+
+
+/* Copyright 2024 Evan Horsley - All Rights Reserved. */
