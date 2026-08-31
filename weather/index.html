@@ -15,7 +15,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
-      <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
     <title>Weather</title>
 
@@ -24,72 +24,75 @@
 <body>
     <div class="container">
         <div class="my-3">
-        <div class="card">
-            <div class="card-body">
-                <h1>Weather</h1>
-                <p>For as long as I can remember, I have had a fascination with the weather. I love watching storms
-                    from the comfort of my home. The lightning flashing through the windows, the thunder rumbling
-                    and shaking the entire house. Just something about it is exciting.</p>
-                <p>I have set up my own weather station on my property to capture local weather data. This is mostly
-                    for fun, but I also plan on using it to automate some things via Home Assistant once I have
-                    enough data. I also plan on supplying this data to the NWS for their observation as well.</p>
+            <div class="card">
+                <div class="card-body">
+                    <h1>Weather</h1>
+                    <p>For as long as I can remember, I have had a fascination with the weather. I love watching storms
+                        from the comfort of my home. The lightning flashing through the windows, the thunder rumbling
+                        and shaking the entire house. Just something about it is exciting.</p>
+                    <p>I have set up my own weather station on my property to capture local weather data. This is mostly
+                        for fun, but I also plan on using it to automate some things via Home Assistant once I have
+                        enough data. I also plan on supplying this data to the NWS for their observation as well.</p>
 
 
-                <div class="flex">
-                    <h4>Location</h4>
-                    <p>Cincinnati, OH</p>
-                    <h4>Last Updated</h4>
-                    <p id="lastUpdated"></p>
+                    <div class="flex">
+                        <h4>Location</h4>
+                        <p>Cincinnati, OH</p>
+                        <h4>Last Updated</h4>
+                        <p id="lastUpdated"></p>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="card mt-3">
-            <div class="card-body">
-                <h2>Latest Observations</h2>
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h2>Latest Observations</h2>
 
-                  <div class="row align-items-start">
-                <div
-                    class="col-3"
-                >
-                    <div id="temperatureGauge" class="weather-gauge"></div>
+                    <div class="row align-items-start">
+                        <div class="col-3">
+                            <div id="temperatureGauge" class="weather-gauge"></div>
+                            <p class="weather-gauge-label">Temperature</p>
+                        </div>
+                        <div class="col-3">
+                            <div id="humidtyGauge" class="weather-gauge"></div>
+                            <p class="weather-gauge-label">Humidity</p>
+                        </div>
+                        <div class="col-3">
+                            <div id="pressureGauge" class="weather-gauge"></div>
+                            <p class="weather-gauge-label">Pressure</p>
+                        </div>
+                        <div class="col-3">
+                            <div id="windGauge" class="weather-gauge"></div>
+                            <p class="weather-gauge-label">Wind</p>
+                        </div>
+                    </div>
+
                 </div>
-                <div
-                    class="col-3"
-                >
-                    <div id="humidtyGauge" class="weather-gauge"></div>
-                </div>
-                <div
-                    class="col-3"
-                >
-                    <div id="pressureGauge" class="weather-gauge"></div>
-                </div>
-                <div
-                    class="col-3"
-                >
-                    <div id="windGauge" class="weather-gauge"></div>
-                </div>
-                </div>
-                 
+
             </div>
 
+
+
         </div>
-
-
-
     </div>
-</div>
 
-    
+
 </body>
 
 <style>
     .weather-gauge {
-  padding: 0;
-  max-width: 380px;
-  margin: 35px auto;
-}
+        padding: 0;
+        max-width: 380px;
+        margin: 20px auto 0;
+    }
 
+    .weather-gauge-label {
+        margin: 0.5rem 0 1.5rem;
+        color: #334155;
+        font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+        font-weight: 600;
+        text-align: center;
+    }
 </style>
 <script src="charts.js"></script>
 
