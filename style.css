@@ -204,25 +204,26 @@ a:link, a:visited {
 	bottom: 6em;
 }
 
-.bmac {
-	width: 100%;
+.support {
 	text-align: center;
-	color: rgb(53, 53, 53);
 	padding: 20px;
 }
 
-#bmac-btn {
+.support-link {
 	display: block;
-	background-image: url('./images/bmac/white-button.png');
-	background-size: cover;
-	background-position: center;
-	width: 40%;
-	min-width: 200px;
-	max-width: 300px;
-	aspect-ratio: 1090 / 306;
-	margin: auto;
-	margin-top: 20px !important;
-	border-radius: 20px;
+	width: min(280px, 100%);
+	margin: 0 auto;
+}
+
+.support-link img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.support-link:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 4px;
 }
 
 @media (min-width: 1600px) {
@@ -297,14 +298,6 @@ a:link, a:visited {
 
 	.cursor {
 		color: rgb(17, 166, 252);
-	}
-
-	.bmac {
-		color: white;
-	}
-
-	#bmac-btn {
-		background-image: url('./images/bmac/black-button.png');
 	}
 }
 
